@@ -28,14 +28,6 @@ ScamGram is a hybrid cybersecurity tool that shifts email defense from a passive
 
 ---
 
-## 📑 Project Deliverables & Reports
-
-- 📄 **Full Academic Report (Questions 1-8)**: [Q3-6Guide.pdf](file:///c:/Users/dkiri/Desktop/ΠΡΟΧΩΡΗΜΕΝΑ%20ΘΕΜΑΤΑ%20ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ/1.%20omadiki%20ergasia/Examinou/Q3-6Guide.pdf) / [Q3-6Guide.md](file:///c:/Users/dkiri/Desktop/ΠΡΟΧΩΡΗΜΕΝΑ%20ΘΕΜΑΤΑ%20ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ/1.%20omadiki%20ergasia/Examinou/Q3-6Guide.md)
-- 📄 **Detailed Code Analysis**: [CodeAnalysis.pdf](file:///c:/Users/dkiri/Desktop/ΠΡΟΧΩΡΗΜΕΝΑ%20ΘΕΜΑΤΑ%20ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ/1.%20omadiki%20ergasia/Examinou/CodeAnalysis.pdf) / [CodeAnalysis.md](file:///c:/Users/dkiri/Desktop/ΠΡΟΧΩΡΗΜΕΝΑ%20ΘΕΜΑΤΑ%20ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ/1.%20omadiki%20ergasia/Examinou/CodeAnalysis.md)
-- 🔗 **References & Bibliography**: [Piges](file:///c:/Users/dkiri/Desktop/ΠΡΟΧΩΡΗΜΕΝΑ%20ΘΕΜΑΤΑ%20ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ/1.%20omadiki%20ergasia/Examinou/Piges)
-
----
-
 ## Key Features
 
 1. **Dual-Layer Email Classification**:
@@ -64,11 +56,6 @@ ScamGram is a hybrid cybersecurity tool that shifts email defense from a passive
 ├── TestingNewImpl/                 # Jupyter notebook testing environment
 ├── .env.example                    # Template for environment configuration
 ├── .gitignore                      # Standard rules for Git exclusions
-├── CodeAnalysis.md                 # Detailed code walkthrough document (Markdown)
-├── CodeAnalysis.pdf                 # Detailed code walkthrough document (PDF)
-├── Piges                           # Bibliography and reference sources
-├── Q3-6Guide.md                    # Academic Project Report (Markdown)
-├── Q3-6Guide.pdf                    # Academic Project Report (PDF)
 ├── requirements.txt                # Project dependencies list
 ├── scaler.pkl                      # Serialized StandardScaler for SVM normalization
 ├── spam_model.pkl                  # Serialized trained SVM classifier model

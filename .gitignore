@@ -1,6 +1,13 @@
 # Environment variables (contains sensitive API keys and credentials)
 .env
 
+# Documentation & Photos (Local only)
+Photos/
+CodeAnalysis.md
+CodeAnalysis.pdf
+Q3-6Guide.md
+Q3-6Guide.pdf
+
 # Python bytecode and caches
 __pycache__/
 *.py[cod]
