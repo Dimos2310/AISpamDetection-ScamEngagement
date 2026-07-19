@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .outputBox {
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            padding: 10px;
+            overflow: auto;
+        }
+
+        .okButton {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .okButton:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="outputBox">
+    <!-- This area will be used to display output from your system -->
+</div>
+
+<button class="okButton">OK</button>
+
+</body>
+</html>
