@@ -107,6 +107,8 @@ The email processing lifecycle flows as follows:
 - A **Groq Cloud API Key** (register at [groq.com](https://console.groq.com)).
 - A **Gmail account** (or other IMAP/SMTP provider) with an **App Password** set up (Standard password will not work if 2FA is active).
 
+> **Note on Groq model IDs:** `script.py` calls the Groq API with the model IDs `llama-3.1-8b-instant` (email classification fallback) and `llama-3.3-70b-versatile` (scambait reply generation). Groq periodically retires/renames models, so these IDs may return a `404 model_not_found` error depending on when you run the project and which models your API key currently has access to. If that happens, run `client.models.list()` (see the `groq` Python SDK) to see the models currently available to your key and update the `model=` parameters in `script.py` accordingly (lines ~264 and ~330). This does not affect the local SVM classifier path, which works independently of Groq.
+
 ### Step 1: Clone the Repository
 ```bash
 git clone <your-repository-url>
